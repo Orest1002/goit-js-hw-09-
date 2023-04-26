@@ -16,3 +16,34 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.field {
+  padding: 20px 30px;
+  
+  display:inline-flexbox;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 130 px;
+  gap: 20px;
+}
+
+
+.label {
+  padding: 10px;
+  font-size: 20px;
+}
+.value {
+  
+  padding: 10px;
+  background-color: rgba(85, 82, 82, 0.6);
+  border-radius: 4px;
+  font-size: 30px;
+}
+button {
+  border-radius: 5px;
+  background-color: rgba(85, 82, 82, 0.6);
+  align-items: center;
+  justify-content: center;
+
+}
