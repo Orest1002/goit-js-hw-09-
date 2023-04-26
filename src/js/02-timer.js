@@ -11,7 +11,7 @@ import Notiflix, { Notify } from 'notiflix';
  btnStart.disabled = true;
  let timerId = null;
 
-  options = {
+  const options = {
     enableTime: true,
     time_24hr: true,
     defaultDate: new Date(),
