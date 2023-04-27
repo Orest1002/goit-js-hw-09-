@@ -47,3 +47,29 @@ button {
   justify-content: center;
 
 }
+.form{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+}
+.form button {
+  margin-top:20px ;
+  width: 350px;
+  height: 40px;
+
+  font-size: 18px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #3b3b3b;
+}
+.form input {
+  padding: 5px;
+  width: 180px;
+  height: 100%;
+margin-bottom: 10px;
+  
+  text-align: left;
+  background-color: #acaaaa;
+ 
+  
+}
