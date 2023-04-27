@@ -23,4 +23,6 @@ stopBtn.addEventListener("click", () => {
 stopBtn.disabled = true;
   clearInterval(timerId);
   
+
+  
 });
